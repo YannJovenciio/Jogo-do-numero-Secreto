@@ -1,3 +1,4 @@
+
 //let titulo = document.querySelector('h1');
 //titulo.innerHTML = "Jogo do numero secreto";
 
@@ -95,5 +96,10 @@ function reiniciarJogo(){
     document.getElementById('reiniciar').setAttribute('disabled',true)
     
 }
+
+
+
+
+ 
 
 
