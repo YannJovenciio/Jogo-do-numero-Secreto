@@ -6,7 +6,7 @@
 //Observe antes e depois, definimos os parametros e agora fazemos de maneira automatizada
 let listaDeNumerosSorteados = [];
 
-let numeroMaximo= 10;
+let numeroMaximo= 100;
 let tentativas = 1;
 
 
@@ -66,7 +66,7 @@ function verificarChute() {
 }
 
 function gerarNumeroAleatorio() {
-    let numeroEscolhido = parseInt(Math.random()* 10 +1);
+    let numeroEscolhido = parseInt(Math.random()* 100 +1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
 
     if (quantidadeDeElementosNaLista == 3) {
